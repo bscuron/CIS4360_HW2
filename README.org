@@ -1,0 +1,12 @@
+* Homework 2
+
+Topic: Compute Evolution: VMs, Containers, Serverless — Which to Use When?
+
+The Garner report,  "Compute Evolution: VMs, Containers, Serverless — Which to Use When?" discusses when and why to use three different technologies: virtual machines (VMs), containers, and serverless computing (FaaS). Choosing which technology to use when depends on the requirements of your workload. In addition to workload requirements, we must also take into account other non-technological factors such as: skill availability, and complexity.
+
+According to the paper, here are the main use cases for each technology:
+- Virtual Machines (VMs): suited for monolithic applications, strong security, porting legacy applications to the cloud, most overhead, high longevity
+- Containers: portability, agility, scalability, microservice architectures, average overhead, average longevity
+- Serverless FaaS: very high scalability, short-lived, low cost, low overhead, short longevity
+
+It might seem like an easy decision when to pick each technology, and it probably would be if there was limitless talent for each technology. Right now, VMs have a high skill availability (relatively), containers have less skill availability, and serverless has even less. So, when deciding which technology to choose, it is important for a company to have the workers skilled enough to deploy that technology.
